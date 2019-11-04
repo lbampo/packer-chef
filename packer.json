@@ -19,14 +19,14 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "first-packer-node-app-LennoxBA-{{timestamp}}",
+    "ami_name": "Packer-node-app-LennoxBA-{{timestamp}}",
     "name": "LBreezy_Build"
   }],
   "provisioners": [
     {
       "type": "chef-solo",
       "cookbook_paths": ["./cookbook"],
-      "run_list": "node::default"
+      "run_list": "node03::default"
     },
     {
       "type": "shell",
