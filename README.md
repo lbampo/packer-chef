@@ -15,4 +15,7 @@
 ### Tester 7
 
 ### Tester 8
+
+### Tester 9
+
 Creates an AMI(Amazon Machine Image) that provisions mongodb and node-app.
